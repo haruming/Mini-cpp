@@ -1,0 +1,45 @@
+class test {
+    private:
+        int a;
+        int b;
+        float c;
+    public:
+        int Asia;
+        int func1(int arg1, int arg2);
+        float func2(float arg3, float arg4) {
+            int array[10];
+            float temp = 0.456;
+            if (temp != 4) {
+                int super = 2;
+                super = super * 7;
+                return c;
+            }
+        }
+};
+
+int test::func1(int arg1, int arg2) {
+    int param = 10;
+    for (param; param == 10; param + 1) {
+        if (param == 10) {
+            float var1 = 3.1415;
+        }
+        do {
+            int star = 5;
+        } while(var1 > 2.3);
+    }
+    return param;
+}
+
+int main() {
+    test t1;
+    int intnum = 99;
+    float floatnum = 2.45;
+    while (intnum <= 100) {
+        test t2;
+        int skku[999];
+        t2.c = 2.3333;
+        intnum = t1.func1(2,4);
+        floatnum = t1.func2(WEIMING, YANG);
+    }
+    return 0;
+}
