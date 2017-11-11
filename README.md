@@ -14,5 +14,3 @@ STEP 1: enter the root directory of the all the files i mentioned above in the l
 STEP 2: use the command:  "make", then will generate all the files
 STEP 3: use the command: "./compiler <input.txt", then will write the AST and symbol table respectively to each file
 STEP 4: check the 2 files generated from STEP 3.
-
-### 3. Project Contributor: WEIMING YANG(2017318294)
