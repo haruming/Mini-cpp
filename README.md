@@ -115,9 +115,14 @@ CallExpr := id ( (ArgList)? )
 ArgList := Expr (, Expr)*
 
 ## Operator Precedence and Associativity
-Precedence        Operator          Description          Associativity</br>
-1                    ()            function call         left-to-right</br>
-2                    -              unary minus          right-to-left</br>
+Precedence	Operator	Description	Associativity</br>
+1	( )	Function call	Left-to-right</br>
+2	-	Unary minus	Right-to-left</br>
+3	*, /	Multiplication and division	Left-to-right</br>
+4	+, -	Addition and subtraction	Left-to-right</br>
+5	<, >, <=, >=	Relational operators	Left-to-right</br>
+6	==, !=	Equality operators	Left-to-right</br>
+7	=	Assignment	Right-to-left</br>
 
 ### 1. The structure of the project
 
